@@ -47,10 +47,7 @@ class _DartLearningHomeState extends State<DartLearningHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Belajar Basic Dart'),
-        centerTitle: true,
-      ),
+      appBar: AppBar(title: const Text('Contoh'), centerTitle: true),
       body: Column(
         children: [
           // Area Output

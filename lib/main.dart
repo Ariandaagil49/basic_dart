@@ -1,21 +1,22 @@
 // ignore_for_file: library_private_types_in_public_api
-import 'package:flutter/material.dart';
-import 'package:flutter_application_1/course/future_either_functions.dart';
 
-import 'course/basic_class.dart';
-import 'course/collections.dart';
-import 'course/enum.dart';
-import 'course/future_functions.dart';
-import 'course/if_condition.dart';
-import 'course/inheritance.dart';
-import 'course/interface.dart';
-import 'course/loops.dart';
-import 'course/null_safety.dart';
-import 'course/return_functions.dart';
-import 'course/switch_case.dart';
-import 'course/try_catch.dart';
-import 'course/variable.dart';
-import 'course/void_functions.dart';
+import 'package:basic_dart/course/future_either_functions.dart';
+import 'package:flutter/material.dart';
+
+import 'task/basic_class.dart';
+import 'task/collections.dart';
+import 'task/enum.dart';
+import 'task/future_functions.dart';
+import 'task/task_if_condition.dart';
+import 'task/inheritance.dart';
+import 'task/interface.dart';
+import 'task/task_loops.dart';
+import 'task/null_safety.dart';
+import 'task/task_return_functions.dart';
+import 'task/task_switch_case.dart';
+import 'task/task_try_catch.dart';
+import 'task/task_variable.dart';
+import 'task/task_void_functions.dart';
 
 void main() {
   runApp(const MyApp());
@@ -47,7 +48,10 @@ class _DartLearningHomeState extends State<DartLearningHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Contoh'), centerTitle: true),
+      appBar: AppBar(
+        title: const Text('Belajar Basic Dart'),
+        centerTitle: true,
+      ),
       body: Column(
         children: [
           // Area Output

@@ -38,11 +38,13 @@ Future<Either<String, int>> _bagiEither(int a, int b) async {
   return Right(a ~/ b);
 }
 
-Future<Either<String, String>> _loginEither(String username, String password) async {
+Future<Either<String, String>> _loginEither(
+  String username,
+  String password,
+) async {
   await Future.delayed(const Duration(milliseconds: 500));
   if (username == "admin" && password == "1234") {
     return const Right("Login sukses!");
   }
   return const Left("Username atau password salah");
 }
-

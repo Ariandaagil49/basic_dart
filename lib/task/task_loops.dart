@@ -6,7 +6,7 @@ void demoLoops(Function(String) updateOutput) {
 
   // For loop
   result += "For loop (2-20):\n";
-  for (int i = 2; i <= 20; i++) {
+  for (int i = 2; i <= 20; i += 2) {
     result += "$i ";
   }
   result += "\n";

@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'task/basic_class.dart';
 import 'task/collections.dart';
 import 'task/enum.dart';
-import 'task/future_functions.dart';
+import 'task/task_future_functions.dart';
 import 'task/task_if_condition.dart';
 import 'task/inheritance.dart';
 import 'task/interface.dart';
